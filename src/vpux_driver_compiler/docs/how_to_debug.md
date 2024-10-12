@@ -1,5 +1,7 @@
 # How to debug
 
+Public models are available at the following link: https://github.com/openvinotoolkit/open_model_zoo/tree/master/models/public
+
 ## Logs
 
 To change the compiler behavior a config file can be provided to the `compilerTest` tool. For example, to change the logging level, use:

@@ -59,7 +59,15 @@ vclCompilerDestroy
 
 ## How to build related targets locally
 
-Driver Compiler provides npu_driver_compiler, compilerTest, profilingTest and loaderTest to compile network and test. To build Driver Compiler related targets locally, refer to [How to build driver compiler](./docs/how_to_build_driver_compiler.md).
+Driver Compiler provides npu_driver_compiler, compilerTest, profilingTest and loaderTest to compile network and test. To build Driver Compiler related targets locally, refer to
+
+- (Recommended) build using CMake Presets, requiring CMake version 3.19 or higher.
+    - [linux](./docs/how_to_build_driver_compiler_withCmakePresets_on_linux.md)
+    - [windows](./docs/how_to_build_driver_compiler_withCmakePresets_on_windows.md)
+
+- build with cmake options
+    - [linux](./docs/how_to_build_driver_compiler_on_linux.md)
+    - [windows](./docs/how_to_build_driver_compiler_on_windows.md)
 
 
 ## How to release Driver Compiler package
